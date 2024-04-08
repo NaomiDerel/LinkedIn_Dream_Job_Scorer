@@ -1,2 +1,2 @@
 # .gitignore
-models/model_weights/
+models/model_weights.pth
