@@ -94,7 +94,9 @@ Relevant code is available in the file `interview_practice_model.ipynb`.
 **Output**
 
 company: northwestern mutual
+
 job: Recruiter
+
 Number of employees in the company: 576
 
 
@@ -111,7 +113,9 @@ Number of employees in the company: 576
 **Output**
 
 User ID: susan-chon-b32638123
+
 User features:
+
 years of education: 11.0
 years of experience: 14.666666666666666
 recommendations: 0.0
@@ -225,6 +229,8 @@ Thank you again for sharing your experience. We would like to invite you to the 
 **Output**
 
 Good: 6.348652095766738e-05, Bad: 0.9999364614486694
+
 Decision: Bad
+
 
 The user than chooses the next question.
