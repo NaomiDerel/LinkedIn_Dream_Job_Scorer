@@ -23,6 +23,10 @@ This repository contains a 'proof of concept' for the LinkedIn Dream Job Scorer,
 
 **Pipeline of our product functionality:**
 
+<div style="background-color:white; width:70%; padding:10px; border-radius:10px; align:center">
+    <img src="images/pipeline.png" width="100%">
+</div>
+<p>
 
 ## Data Gathering
 
@@ -77,9 +81,11 @@ If the company the user is interested in is deemed too small, we give her a weig
 
 Relevant code is available in the file `interview_practice_model.ipynb`.
 
+Using the information gathered by the previous models, a "pre-interview" scenario is crafted, allowing the user to practice effectively for the real interview. Customized questions that align with the job's requirements, the company values, and the user's personal achievements are generated and available for a simulation of the interview. Upon selecting a question to simulate the interview process for, the user's answer is processed both by Gemini for a realistic simulation, and by our own sentiment analysis model, which evaluates the response as professional and confident, or lacking and with room to improve. Then the process is repeated for as many questions as the user desires. 
+
 ## Simulation Example
 
-In order to run the entire product, the 'User Analysis', 'Company_Similarity_Model', 'Interviewer Buddy', and 'Sentiment_Analysis_Model' notebooks must be ran to create all the models and necessary data. Alternatively, they can be accessed through the paths in the code for those who have permission. Then, it is possible to ran the 'Example' notebook, and replace the random sampling with the information about the desired user and company. We will simulate an example of the stages of the product -
+In order to run the entire product, the 'User_Similarity_Model', 'Company_Similarity_Model', and 'Sentiment_Analysis_Model' notebooks must be ran to create all the models and necessary data. Alternatively, they can be accessed through the paths in the code for those who have permission. Then, it is possible to run the 'Example' notebook, and replace the random sampling with the information about the desired user and company. We will simulate an example of the stages of the product -
 
 1. A new user is inquiring about a specific job posting.
 
