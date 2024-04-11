@@ -79,6 +79,8 @@ Relevant code is available in the file `interview_practice_model.ipynb`.
 
 ## Simulation Example
 
+In order to run the entire product, the 'User Analysis', 'Company_Similarity_Model', 'Interviewer Buddy', and 'Sentiment_Analysis_Model' notebooks must be ran to create all the models and necessary data. Alternatively, they can be accessed through the paths in the code for those who have permission. Then, it is possible to ran the 'Example' notebook, and replace the random sampling with the information about the desired user and company. We will simulate an example of the stages of the product -
+
 1. A new user is inquiring about a specific job posting.
 
 
