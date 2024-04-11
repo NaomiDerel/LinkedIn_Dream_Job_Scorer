@@ -32,8 +32,12 @@ This repository contains a 'proof of concept' for the LinkedIn Dream Job Scorer,
 
 Our project is dependent on exclusive LinkedIn datasets by BrightData. They contain 'companies' and 'profiles' data scraped from appropriate LinkedIn pages. 
 
-Additional data is included in the 'data' folder, contains the following files.
+Additional data is included in the 'data' folder, which contains the following files:
 
+- jobs_final.csv - Scraped data from LinkedIn of job postings from 86 different companies. Columns: job, company_in_data. Rows: 3579.
+- questions.csv - Scraped data from Mockquestions website of interview questions for 77 different companies. Columns: question, category, data_name. Rows: 2564.
+- labeled_data_gemini_answers.csv - Generated binary-labeled data of answers to interview questions. Columns: answer, label. Rows: 199.
+- professions_data_300.json - Scraped data from O*Net OnLine website information about occupations. Columns: name, wage, tasks, skills, tech_skills, knowledge, education, work_style. Rows: 300.
 
 
 ## Models
