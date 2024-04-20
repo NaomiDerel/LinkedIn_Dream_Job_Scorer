@@ -34,10 +34,11 @@ Our project is dependent on exclusive LinkedIn datasets by BrightData. They cont
 
 Additional data is included in the 'data' folder, which contains the following files:
 
-- jobs_final.csv - Scraped data from LinkedIn of job postings from 86 different companies. Columns: job, company_in_data. Rows: 3579.
 - questions.csv - Scraped data from Mockquestions website of interview questions for 77 different companies. Columns: question, category, data_name. Rows: 2564.
 - labeled_data_gemini_answers.csv - Generated binary-labeled data of answers to interview questions. Columns: answer, label. Rows: 199.
 - professions_data_300.json - Scraped data from O*Net OnLine website information about occupations. Columns: name, wage, tasks, skills, tech_skills, knowledge, education, work_style. Rows: 300.
+
+- jobs_final.csv - Scraped data from LinkedIn of job postings from 86 different companies. Columns: job, company_in_data. Rows: 3579. Since we used brightData this is not available for public use.
 
 
 ## Models
@@ -232,12 +233,13 @@ I am confident that your skills and experience would enable you to make a signif
 
 Thank you again for sharing your experience. We would like to invite you to the next round of interviews to further explore your qualifications and how you can bring your innovative mindset to our organization."
 
-    ```bash
+```bash
     prob_bad, prob_good = inference_of_answer(loaded_model, bad_user_input)
 
     print(f"Good: {prob_good}, Bad: {prob_bad}")
     print("Decision: " + "Good" if prob_good > prob_bad else "Decision: " + "Bad")
-    ```
+```
+
 **Output**
 
 Good: 6.348652095766738e-05, Bad: 0.9999364614486694
