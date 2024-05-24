@@ -3,9 +3,9 @@
 This project was implemented as part of a "Data Gathering and Managing" Lab course, Technion. Our product is added to a position page in LinkedIn, and offers the user unique, personalized insights as well as interview practice.
 
 ### Team Members
-- [Renana Shahak](renanas@campus.technion.ac.il)
-- [Gili Cohen](gili.cohen@campus.technion.ac.il)
-- [Naomi Derel](naomi.derel@campus.technion.ac.il)
+- Renana Shahak
+- Gili Cohen
+- Naomi Derel | naomi.derel@campus.technion.ac.il
 
 ## Contents
 
