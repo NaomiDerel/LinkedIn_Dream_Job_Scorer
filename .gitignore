@@ -1,2 +1,4 @@
 # .gitignore
 models/model_weights.pth
+images
+developmental code

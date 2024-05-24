@@ -58,7 +58,7 @@ For this algorithm, we suggested the following features grounded in our domain k
 After feature importance analysis, we retained only the features related to the name, 'about' section, and slogan, given the pivotal role of NLP analysis, along with the numerical size feature, which proved to be impactful.
 
 <div style="background-color:white; width:70%; padding:10px; border-radius:10px; align:center">
-    <img src="images/feature_analysis_reduced_similarity_model.png" width="100%">
+    <img src="images/feature_analysis_readme_version.png" width="100%">
 </div>
 <p>
 
